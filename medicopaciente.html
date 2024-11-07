@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estrelinhas da Saúde</title>
+    <link rel="icon" href="image/image.png">
+    <link rel="stylesheet" href="css/medicopaciente.css">
+
+</head>
+<body>
+    <div>
+        <div class="wrapper">
+            <div class="logo">
+                <a href="index.html">
+                <img src="img/Estrelinhas_da_Saúde__2_-removebg.png" alt="logo">
+                </a>
+            </div>
+        </div>
+        <hr class="linhaCabecalho">    
+
+        <form class="search-bar" action="java/script.js" method="get">
+            <input type="search"
+            id="inputSearch" placeholder="nome do paciente">
+            <label for="inputSearch"><span class="icon-search"></span></label>
+        </form>
+
+        <aside class="menu">
+            <p class="menu-title" onclick="toggleMenu()">MENU ☰</p>
+            <nav id="menu-items">
+                <ul>
+                    <li>Pacientes</li>
+                    <li>Agenda</li>
+                </ul>
+            </nav>
+        </aside>
+
+        <script src="java/script.js"></script>
+
+
+        <main class="content">
+            <div class="background-star">
+                <img src="image/image.png" alt="Estrela com coroa">
+            </div>
+        </main>
+    </div>
+
+
+</body>
+</html>

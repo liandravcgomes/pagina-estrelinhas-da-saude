@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fcf4c2;
+    color: #EAB308;
+    margin: 0;
+    padding: 0;
+}
+
+.linhaCabecalho {
+    height: 2px;
+    background: #ffa50036;
+    margin-block: 5px 35px;
+    border: none;
+}
+
+.wrapper {
+    max-width: 1200px;
+    height: 69px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Open Sans", sans-serif;
+}
+
+.container {
+    margin: auto;
+    text-align: center;
+}
+
+.logo {
+    height: 60%;
+ }
+
+ .logo img {
+    height: 65px;
+ }
+
+.contact-form h2 {
+    font-size: 27px;
+    color: #f5a623;
+}
+
+.contact-form p {
+    font-size: 20px;
+    color: #f5a623;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0px;
+}
+
+form input, form textarea {
+    width: 400px;
+    padding: 15px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 20px;
+    background-color: #ffed7c;
+    font-size: 15px;
+    color: #333;
+}
+
+form textarea {
+    resize: none;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #ffa500;
+    color: #fff;
+    font-size: 12px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+form button:hover {
+    background-color: #e59400;
+}
+
+footer {
+    margin-top: 60px;
+    font-size: 15px;
+    text-align: center;
+    color: #f5a623;
+}
+
+.social-media {
+    margin: 10px 0;
+}
+
+.social-media a {
+    margin: 0 5px;
+    text-decoration: none;
+}
+
+.social-media img {
+    width: 40px;
+    height: 40px;
+}
+
+footer p {
+    color: #f5a623;
+    margin-top: 10px;
+}

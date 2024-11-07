@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: Arial;
+    font-weight: 500;
+    font-style: normal;
+}
+.wrapper {
+      max-width: 1200px;
+      margin-left: auto;
+      margin-right: auto;
+      font-family: "Open Sans", sans-serif;
+}
+body{
+    background-color: #fcf4c2;
+}
+.logo{
+    height: 60%;
+}
+.logo img{
+    height: 65px;
+}
+.cabecalho{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.linhaCabecalho{
+    height: 2px;
+    background: #ffa50036;
+    margin-block: 5px 3%;
+    border: none;
+}
+.containerItensNav{
+    display: flex;
+    gap: 15px;
+    list-style: none;
+}
+.containerItensNav a{
+    color: orange;
+    font-weight: bold;  
+}
+.menuNavegacao{
+    display: flex;
+    align-items: center;    
+}
+.imagemUser img{
+    height: 40px;
+    width: 40px;
+    margin-left: 10px;
+}
+.chamativo{
+    display: grid;
+    grid-template-columns: 42% 58%;
+    margin-top: 5%;
+}
+.textoInicio{
+    display: ruby;
+    text-align: center;
+}
+.textoInicio h1{
+    color: orange;
+    font-weight: bold;
+    text-align: center;
+    margin-block: 15px;
+    font-size: 40px;
+}
+.textoInicio p{
+    width: 80%;
+    color: #fec827;
+    text-align: justify;
+    font-size: 20px;
+    font-weight: bold;
+}
+.imagemInicio {
+    text-align: right;
+}
+.imagemInicio img{
+    width: 100%;
+    
+}
+.botoesInicio{
+    display: grid;
+    grid-template-columns: 30% 30%;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 3%;
+}
+#buttonInicio{
+    height: 45px;
+    width: 100%;
+    background-color: #fea92d;
+    border: none;
+    border-radius: 25px;
+    color: #fcf4c2;
+    font-weight: bold;
+    font-size: 18px;
+}

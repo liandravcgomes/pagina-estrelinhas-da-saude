@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estrelinhas da Saúde - Agendamento</title>
+    <link rel="stylesheet" href="css/agendamento.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="logo">
+            <img src="img/Estrelinhas_da_Saúde__2_-removebg.png" alt="logo">
+        </div>
+    </div>
+    <hr class="linhaCabecalho">
+    <div class="container">
+        <section class="paciente">
+            <h2>Paciente</h2>
+            <form action="paciente" method="post">
+                <div class="linha">
+                    <input type="text" name="nome_paciente" placeholder="Nome do paciente" required>
+                </div>
+                <div class="linha">
+                    <input type="number" name="idade" placeholder="Idade" required>
+                    <select name="especialidade" required>
+                        <option value="" disabled selected>Sexo...</option>
+                        <option value="masculino">Masculino</option>
+                        <option value="feminino">Feminino</option>
+                    </select>
+                    <input type="date" name="data_nascimento" placeholder="Data Nascimento" required>
+                </div>
+                <div class="linha">
+                    <input type="text" name="cpf_paciente" placeholder="CPF" required>
+                    <select name="especialidade" required>
+                        <option value="" disabled selected>Doutora...</option>
+                        <option value="DraBianca">Dra. Bianca Seixas Soares</option>
+                        <option value="DraMarianna">Dra. Marianna Rodrigues</option>
+                    </select>
+                </form>
+                </div>
+            </section>
+
+        <section class="responsavel">
+            <h2>Responsáveis</h2>
+            <form action="responsavel" method="post">
+                <div class="linha">
+                    <input type="text" name="nome_pai" placeholder="Nome do pai" required>
+                </div>
+                <div class="linha">   
+                    <input type="text" name="nome_mae" placeholder="Nome da mãe" required>
+                </div>
+                    <div class="linha">
+                    <input type="tel" name="celular_responsavel" placeholder="Nº Celular" required>
+                    <input type="text" name="cpf_responsavel" placeholder="CPF" required>
+                </div>
+                <button type="submit">AGENDAR</button>
+            </form>
+        </section>
+    </div>
+</body>
+</html>
