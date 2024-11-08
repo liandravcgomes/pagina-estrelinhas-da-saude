@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: Arial;
+    font-weight: 500;
+    font-style: normal;
+}
+.wrapper {
+      max-width: 1200px;
+      margin-left: auto;
+      margin-right: auto;
+      font-family: "Open Sans", sans-serif;
+}
+body{
+    background-color: #fcf4c2;
+}
+.logo{
+    height: 60%;
+}
+.logo img{
+    height: 65px;
+}
+.cabecalho{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.linhaCabecalho{
+    height: 2px;
+    background: #ffa50036;
+    margin-block: 5px 3%;
+    border: none;
+}
+.containerItensNav{
+    display: flex;
+    gap: 15px;
+    list-style: none;
+}
+.containerItensNav a{
+    color: orange;
+    font-weight: bold;  
+}
+.menuNavegacao{
+    display: flex;
+    align-items: center;    
+}
+.imagemUser img{
+    height: 40px;
+    width: 40px;
+    margin-left: 10px;
+}
+.chamativo{
+    display: grid;
+    grid-template-columns: 42% 58%;
+    margin-top: 5%;
+}
+
+.container {
+    display: flex;
+}
+  
+.texto1, .texto2 {
+    width: 50%;
+    padding: 70px;
+    box-sizing: border-box;
+    text-align:justify;
+    font-family: Arial, Helvetica, sans-serif;
+    color: orange;
+    font-size: large;
+}
+
+h1{
+    padding-top: 2%;
+    text-align:justify;
+    font-family: Arial, Helvetica, sans-serif;
+    color: orange;
+    text-align: center;
+    padding-left: 20px;
+}
+
+.imagem {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 80%;
+  }
